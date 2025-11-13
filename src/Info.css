@@ -1,0 +1,25 @@
+ 
+.info{
+    color:black;
+    background-color:rgba(205, 94, 242, 0.2);
+    border-radius:2%;
+    height:52rem;
+    width:32rem;
+    justify-self:center;
+}
+img{
+    height:25rem;
+    width:30rem;
+    border-radius:5%;
+}
+@media screen and (max-width: 562px) {
+ .info{
+     
+     width:18rem ;
+     height: 45rem;
+  }
+  img{
+     width:17rem ;
+     height:18rem;
+  }
+}
